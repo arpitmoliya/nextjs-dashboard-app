@@ -4,3 +4,9 @@ updates:
     directory: "/" # Location of package manifests
     schedule:
       interval: "daily"
+      # Raise all npm pull requests with reviewers
+    reviewers:
+      - "user-name"
+    # Raise all npm pull requests with assignees
+    assignees:
+      - "user-name"
